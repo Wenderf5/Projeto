@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@700&family=Raleway:ital@1&display=swap');
+.msg{
+    width: 250px;
+    height: 35px;
+    background: rgba(255, 255, 255, 0.486);
+    color: black;
+    font-family: 'Cabin', sans-serif;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+}

@@ -90,7 +90,12 @@
 .btnEnviar:hover{
     background: #2e4272;
 }
-
+.Msg{
+    position: absolute;
+    left: 35%;
+    top: 81.50%;
+    transform: translate(-50%,-50%);
+}
 @media (min-width: 900px) and (max-width: 1300px){
 
     .formulario{
@@ -116,6 +121,12 @@
     }
     .btnEnviar:hover{
         background: #2e4272;
+    }
+    .Msg{
+        position: absolute;
+        left: 45%;
+        top: 81.50%;
+        transform: translate(-50%,-50%);
     }
 }
 @media (min-width: 750px) and (max-width: 899px){
@@ -143,6 +154,12 @@
     }
     .btnEnviar:hover{
         background: #2e4272;
+    }
+    .Msg{
+        position: absolute;
+        left: 54%;
+        top: 78.50%;
+        transform: translate(-50%,-50%);
     }
 }
 @media (max-width: 749px){
@@ -227,5 +244,11 @@
     }
     .btnEnviar:hover{
         background: #2e4272;
+    }
+    .Msg{
+        position: absolute;
+        left: 50%;
+        top: 83.25%;
+        transform: translate(-50%,-50%);
     }
 }

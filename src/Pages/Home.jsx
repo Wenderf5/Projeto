@@ -1,10 +1,12 @@
 import React, { useState } from 'react';
 import '../Style/Home.css';
 import Formulario from '../components/Formulario';
+import MsgEnviado from '../components/MsgEnviado';
 
 function Home() {
     const [mostrarBloco3, setMostrarBloco3] = useState(false);
     const [mostrarFormulario, setMostrarFormulario] = useState(false);
+    const [isVisible, setIsVisible] = useState(false);
 
     const toggleBloco3 = () => {
         setMostrarBloco3(!mostrarBloco3);
@@ -15,6 +17,24 @@ function Home() {
     const toggleFormulario = () => {
         setMostrarFormulario(!mostrarFormulario);
     };
+
+    const [enviar, setEnviar] = useState (null);
+
+    const enviarFormulario = () => {
+        if (enviar) {
+            enviar();
+        }
+    };
+
+    function msg1(){
+        setIsVisible(true)
+         setTimeout(() => {
+            setIsVisible(false);
+          }, 3000);
+    }
+
+    
+
 
     return (
         <div>
@@ -38,10 +58,10 @@ function Home() {
 
             {mostrarFormulario && ( 
             <div className='formulario'>
-                <Formulario />
-                <button className='btnEnviar'>Enviar</button>
+                <Formulario setEnviar={setEnviar} funcaomsg1={msg1}/>
             </div>)}
-
+            {isVisible &&
+            <div className='Msg'><MsgEnviado /></div>}
         </div>
     );
 }
