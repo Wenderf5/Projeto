@@ -76,6 +76,20 @@
     background-color: #1a1a1a;
     cursor: pointer;
 }
+.btnEnviar{
+    margin-top: 20px;
+    width: 80px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    color: #ffda66;
+    background: #8eabdc;
+    cursor: pointer;
+    font-family: 'Cabin', sans-serif;
+}
+.btnEnviar:hover{
+    background: #2e4272;
+}
 
 @media (min-width: 900px) and (max-width: 1300px){
 
@@ -88,6 +102,20 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+    .btnEnviar{
+        margin-top: 20px;
+        width: 80px;
+        height: 30px;
+        border: none;
+        border-radius: 5px;
+        color: #ffda66;
+        background: #8eabdc;
+        cursor: pointer;
+        font-family: 'Cabin', sans-serif;
+    }
+    .btnEnviar:hover{
+        background: #2e4272;
     }
 }
 @media (min-width: 750px) and (max-width: 899px){
@@ -102,14 +130,28 @@
         flex-direction: column;
         align-items: center;
     }
+    .btnEnviar{
+        margin-top: 20px;
+        width: 80px;
+        height: 30px;
+        border: none;
+        border-radius: 5px;
+        color: #ffda66;
+        background: #8eabdc;
+        cursor: pointer;
+        font-family: 'Cabin', sans-serif;
+    }
+    .btnEnviar:hover{
+        background: #2e4272;
+    }
 }
 @media (max-width: 749px){
 
     .formulario{
-        width: 250px;
+        width: 190px;
         position: absolute;
         left: 68%;
-        top: 60%;
+        top: 58.50%;
         transform: translate(-50%, -50%);
         display: flex;
         flex-direction: column;
@@ -130,7 +172,7 @@
         justify-content: space-around;
         align-items: center;
         color: #ffda66;
-        font-size: 20px;
+        font-size: 15px;
         font-family: 'Cabin', sans-serif;
     }
     .navBar2{
@@ -145,13 +187,13 @@
     .op1{
         color: #8eabdc;
         font-family: 'Cabin', sans-serif;
-        font-size: 50px;
+        font-size: 40px;
         margin-top: 70px;
     }
     .op2{
         color: #ffda66;
         font-family: 'Cabin', sans-serif;
-        font-size: 50px;
+        font-size: 40px;
         margin-top: 70px;
     }
     .bloco3{
@@ -167,8 +209,23 @@
         align-items: center;
         flex-direction: column;
         justify-content: space-around;
-        font-size: 20px;
+        font-size: 15px;
         color: #ffda66;
         font-family: 'Cabin', sans-serif;
+    }
+
+    .btnEnviar{
+        margin-top: 20px;
+        width: 80px;
+        height: 30px;
+        border: none;
+        border-radius: 5px;
+        color: #ffda66;
+        background: #8eabdc;
+        cursor: pointer;
+        font-family: 'Cabin', sans-serif;
+    }
+    .btnEnviar:hover{
+        background: #2e4272;
     }
 }

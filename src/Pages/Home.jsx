@@ -39,7 +39,9 @@ function Home() {
             {mostrarFormulario && ( 
             <div className='formulario'>
                 <Formulario />
+                <button className='btnEnviar'>Enviar</button>
             </div>)}
+
         </div>
     );
 }
