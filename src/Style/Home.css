@@ -280,16 +280,17 @@
         transform: translate(-50%,-50%);
     }
     .resumos{
+        height: 66%;
         width: 98%;
         position: absolute;
         left: 0.50%;
-        top: 120px;
+        top: 22%;
     }
     .lista1{
         display: flex;
         flex-direction: column;
         width: 100%;
-        height: 400px;
+        height: 100%;
         overflow: auto;
     }
 }
