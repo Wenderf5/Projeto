@@ -44,7 +44,7 @@ function Home() {
     const [cidadeForm, setCidadeForm] = useState([]);
 
     function ax2(){
-        var sheetURL = "https://sheetsu.com/apis/v1.0su/de0e43a957ea";
+        var sheetURL = "https://sheetsu.com/apis/v1.0su/e75f01847992";
 
         fetch(sheetURL)
             .then(response => response.json())
@@ -107,9 +107,3 @@ function Home() {
 }
 
 export default Home;
-
-//https://docs.google.com/spreadsheets/d/e/2PACX-1vQ17R4pXIYdY8sLYE53_V6U-nrpk_3ZsnXGBYPyklFItm-ysO7CLDHybPwJgFS0WR0aSA3wAeNgY5qY/pubhtml
-
-//AIzaSyCnU7QrqmfnceqMowJWnHJbC0eV_-V29Xw
-
-//https://sheetsu.com/apis/v1.0su/0db28ee6e1a5
