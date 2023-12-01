@@ -1,13 +1,13 @@
 import '../Style/Lista.css'
 
-function Lista(){
+function Lista(props){
     return(
         <div className='lista'>
-            <div className='codigoAnimal'>123</div>
-            <div className='cidade'>Turmalina</div>
-            <div className='estado'>Minas Gerais</div>
-            <div className='tipoDeCriação'>Gado</div>
-            <div className='dataDoCio'>12/12/2012</div>
+            <div className='codigoAnimal'>{props.track.Código_do_Animal}</div>
+            <div className='cidade'>{props.track.Cidade}</div>
+            <div className='estado'>{props.track.Estado}</div>
+            <div className='tipoDeCriação'>{props.track.Tipo_de_Criação}</div>
+            <div className='dataDoCio'>{props.track.Data_do_Cio}</div>
         </div>
     )
 }
